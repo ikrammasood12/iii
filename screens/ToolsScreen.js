@@ -14,27 +14,27 @@ const ToolsScreen = () => {
       <View style={styles.buttonContainer}>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="build" size={30} color="orange" />
+            <MaterialIcons name="build" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Manage</Text>
           <Text style={styles.iconText}>Products</Text>
         </View>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="shopping-cart" size={30} color="orange" />
+            <MaterialIcons name="shopping-cart" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Products</Text>
         </View>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="rate-review" size={30} color="orange" />
+            <MaterialIcons name="rate-review" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Manage</Text>
           <Text style={styles.iconText}>Reviews</Text>
         </View>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="storefront" size={30} color="orange" />
+            <MaterialIcons name="storefront" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Borrow</Text>
           <Text style={styles.iconText}>Products</Text>
@@ -43,21 +43,21 @@ const ToolsScreen = () => {
       <View style={styles.buttonContainer}>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialCommunityIcons name="map-marker" size={30} color="orange" />
+            <MaterialCommunityIcons name="map-marker" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Order</Text>
           <Text style={styles.iconText}>Tracking</Text>
         </View>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="contacts" size={30} color="orange" />
+            <MaterialIcons name="contacts" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Connection</Text>
           <Text style={styles.iconText}>Request</Text>
         </View>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="monetization-on" size={30} color="orange" />
+            <MaterialIcons name="monetization-on" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Negotiate</Text>
           <Text style={styles.iconText}>Price</Text>
@@ -70,7 +70,7 @@ const ToolsScreen = () => {
       <View style={styles.buttonContainer}>
         <View style={styles.iconContainer}>
           <Pressable style={styles.button}>
-            <MaterialIcons name="local-shipping" size={30} color="orange" />
+            <MaterialIcons name="local-shipping" size={30} color="darkorange" />
           </Pressable>
           <Text style={styles.iconText}>Free</Text>
           <Text style={styles.iconText}>Shipping</Text>
@@ -83,12 +83,13 @@ const ToolsScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
+    top:20,
     flex: 1,
     backgroundColor: '#FFFFFF',
-    padding: 20,
+    padding: 1,
   },
   toolsText: {
-    fontSize: 35,
+    fontSize: 30,
     left: 15,
     top: 10,
     fontWeight: 'bold',
@@ -113,8 +114,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    width: 60,
-    height: 60,
+    width: 50,
+    height: 50,
     borderRadius: 30,
     backgroundColor: '#FFE4B5',
     alignItems: 'center',
