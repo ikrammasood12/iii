@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, Image, ScrollView } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
@@ -95,13 +96,13 @@ const AddProductScreen = () => {
         <View style={styles.imageOptions}>
           <TouchableOpacity style={styles.button} onPress={pickImage}>
             <View style={styles.buttonContent}>
-              <MaterialIcons name="photo-library" size={24} color="black" />
+              <MaterialIcons name="photo-library" size={20} color="black" />
               <Text style={styles.buttonText}>Upload Photo</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={takePhoto}>
             <View style={styles.buttonContent}>
-              <MaterialIcons name="camera-alt" size={24} color="black" />
+              <MaterialIcons name="camera-alt" size={20} color="black" />
               <Text style={styles.buttonText}>Take Photo</Text>
             </View>
           </TouchableOpacity>
@@ -173,15 +174,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'gray',
     borderRadius: 5,
-    padding: 10,
-    width: 180,
+    padding: 7,
+    width: 150,
   },
   buttonContent: {
     flexDirection: 'row',
     alignItems: 'center',
   },
   buttonText: {
-    marginLeft: 5,
+    marginLeft: 3,
   },
   imageList: {
     flexDirection: 'row',
@@ -211,5 +212,6 @@ const styles = StyleSheet.create({
 });
 
 export default AddProductScreen;
+
 
 
