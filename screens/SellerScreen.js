@@ -23,7 +23,7 @@ const SellerScreen = () => {
             // Handle press event
           }}
         >
-          <Text style={styles.buttonText}>Register with number</Text>
+          <Text style={styles.buttonText}>Continue as Seller</Text>
         </Pressable>
         <View style={styles.buttonSpacing} />
         <Pressable
@@ -36,7 +36,7 @@ const SellerScreen = () => {
             // Handle press event
           }}
         >
-          <Text style={styles.buttonText}>Login with password</Text>
+          <Text style={styles.buttonText}>Continue as Customer</Text>
         </Pressable>
       </View>
     </View>

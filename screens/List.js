@@ -107,21 +107,25 @@ const styles = StyleSheet.create({
   },
   removeButton: {
     backgroundColor: 'darkorange',
-    padding: 8,
+    padding: 6,
     borderRadius: 8,
     alignItems: 'center',
+    
+    
   },
   editButton: {
     backgroundColor: 'darkorange',
-    padding: 10,
+    padding: 8,
     borderRadius: 8,
     alignItems: 'center',
   },
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
+    fontSize:12
   },
 });
 
 export default WishlistScreen;
+
 

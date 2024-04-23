@@ -25,7 +25,7 @@ const SS = () => {
         {selectedImage && <Image source={{ uri: selectedImage }} style={styles.image} />}
       </View>
       <TouchableOpacity style={styles.selectImageButton} onPress={pickImage}>
-        <MaterialIcons name="camera-alt" size={24} color="black" style={styles.cameraIcon} />
+        <MaterialIcons name="camera-alt" size={14} color="black" style={styles.cameraIcon} />
         <Text style={styles.buttonText1}>Upload Image</Text>
       </TouchableOpacity>
       <View style={styles.container1}>
@@ -128,12 +128,12 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 20,
     marginBottom: 10,
-    right: 65,
+    right: 20,
   },
   text1: {
     fontSize: 20,
     marginBottom: 20,
-    right: 190,
+    right: 150,
   },
   pressable: {
     flexDirection: 'row',
